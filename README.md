@@ -1,0 +1,12 @@
+# PriorityQueue-Implementation
+A Tree-Based Bounded Priority Queue, C++
+
+This is a tree-based priority queue implementation.
+
+1. The SimpleTree.cpp and SimpleTree.hpp are tree-based bounded priority queue implementation
+
+2. RunnerThread.cpp and RunnerThread.hpp are test driver for both sequential and concurrent operation on SimpleTree
+
+3. Makefile can compile and generate a a.out executable file
+
+4. main.cpp included sequential correctness check and sequential, concurrency runtime performance
