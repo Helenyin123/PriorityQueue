@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5EEB5BDF1E95B6D600E4BEF6"
-               BuildableName = "EE599 Project1"
-               BlueprintName = "EE599 Project1"
-               ReferencedContainer = "container:EE599 Project1.xcodeproj">
+               BuildableName = "PriorityQueue"
+               BlueprintName = "PriorityQueue"
+               ReferencedContainer = "container:PriorityQueue.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5EEB5BDF1E95B6D600E4BEF6"
-            BuildableName = "EE599 Project1"
-            BlueprintName = "EE599 Project1"
-            ReferencedContainer = "container:EE599 Project1.xcodeproj">
+            BuildableName = "PriorityQueue"
+            BlueprintName = "PriorityQueue"
+            ReferencedContainer = "container:PriorityQueue.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,11 +56,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5EEB5BDF1E95B6D600E4BEF6"
-            BuildableName = "EE599 Project1"
-            BlueprintName = "EE599 Project1"
-            ReferencedContainer = "container:EE599 Project1.xcodeproj">
+            BuildableName = "PriorityQueue"
+            BlueprintName = "PriorityQueue"
+            ReferencedContainer = "container:PriorityQueue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "32 45 0"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -75,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5EEB5BDF1E95B6D600E4BEF6"
-            BuildableName = "EE599 Project1"
-            BlueprintName = "EE599 Project1"
-            ReferencedContainer = "container:EE599 Project1.xcodeproj">
+            BuildableName = "PriorityQueue"
+            BlueprintName = "PriorityQueue"
+            ReferencedContainer = "container:PriorityQueue.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E887D241EA6CBF900787A49 /* RunnerThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E887D221EA6CBF900787A49 /* RunnerThread.cpp */; };
+		5E887D281EA6E22100787A49 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5E887D271EA6E22100787A49 /* Makefile */; };
+		5ED7D3751E99945E006AD415 /* SimpleTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7D3731E99945E006AD415 /* SimpleTree.cpp */; };
 		5EEB5BE41E95B6D700E4BEF6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EEB5BE31E95B6D700E4BEF6 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +26,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5EEB5BE01E95B6D700E4BEF6 /* EE599 Project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "EE599 Project1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E887D221EA6CBF900787A49 /* RunnerThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunnerThread.cpp; sourceTree = "<group>"; };
+		5E887D231EA6CBF900787A49 /* RunnerThread.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RunnerThread.hpp; sourceTree = "<group>"; };
+		5E887D271EA6E22100787A49 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5ECFF1911EAD7A3700F72219 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		5ED7D3731E99945E006AD415 /* SimpleTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleTree.cpp; sourceTree = "<group>"; };
+		5ED7D3741E99945E006AD415 /* SimpleTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimpleTree.hpp; sourceTree = "<group>"; };
+		5EEB5BE01E95B6D700E4BEF6 /* PriorityQueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PriorityQueue; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEB5BE31E95B6D700E4BEF6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +50,7 @@
 		5EEB5BD71E95B6D600E4BEF6 = {
 			isa = PBXGroup;
 			children = (
-				5EEB5BE21E95B6D700E4BEF6 /* EE599 Project1 */,
+				5EEB5BE21E95B6D700E4BEF6 /* PriorityQueue */,
 				5EEB5BE11E95B6D700E4BEF6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +58,32 @@
 		5EEB5BE11E95B6D700E4BEF6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EEB5BE01E95B6D700E4BEF6 /* EE599 Project1 */,
+				5EEB5BE01E95B6D700E4BEF6 /* PriorityQueue */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EEB5BE21E95B6D700E4BEF6 /* EE599 Project1 */ = {
+		5EEB5BE21E95B6D700E4BEF6 /* PriorityQueue */ = {
 			isa = PBXGroup;
 			children = (
 				5EEB5BE31E95B6D700E4BEF6 /* main.cpp */,
+				5ED7D3731E99945E006AD415 /* SimpleTree.cpp */,
+				5ED7D3741E99945E006AD415 /* SimpleTree.hpp */,
+				5E887D221EA6CBF900787A49 /* RunnerThread.cpp */,
+				5E887D231EA6CBF900787A49 /* RunnerThread.hpp */,
+				5E887D271EA6E22100787A49 /* Makefile */,
+				5ECFF1911EAD7A3700F72219 /* README */,
 			);
+			name = PriorityQueue;
 			path = "EE599 Project1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5EEB5BDF1E95B6D600E4BEF6 /* EE599 Project1 */ = {
+		5EEB5BDF1E95B6D600E4BEF6 /* PriorityQueue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EEB5BE71E95B6D700E4BEF6 /* Build configuration list for PBXNativeTarget "EE599 Project1" */;
+			buildConfigurationList = 5EEB5BE71E95B6D700E4BEF6 /* Build configuration list for PBXNativeTarget "PriorityQueue" */;
 			buildPhases = (
 				5EEB5BDC1E95B6D600E4BEF6 /* Sources */,
 				5EEB5BDD1E95B6D600E4BEF6 /* Frameworks */,
@@ -77,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "EE599 Project1";
+			name = PriorityQueue;
 			productName = "EE599 Project1";
-			productReference = 5EEB5BE01E95B6D700E4BEF6 /* EE599 Project1 */;
+			productReference = 5EEB5BE01E95B6D700E4BEF6 /* PriorityQueue */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5EEB5BDB1E95B6D600E4BEF6 /* Build configuration list for PBXProject "EE599 Project1" */;
+			buildConfigurationList = 5EEB5BDB1E95B6D600E4BEF6 /* Build configuration list for PBXProject "PriorityQueue" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EEB5BDF1E95B6D600E4BEF6 /* EE599 Project1 */,
+				5EEB5BDF1E95B6D600E4BEF6 /* PriorityQueue */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EEB5BE41E95B6D700E4BEF6 /* main.cpp in Sources */,
+				5ED7D3751E99945E006AD415 /* SimpleTree.cpp in Sources */,
+				5E887D281EA6E22100787A49 /* Makefile in Sources */,
+				5E887D241EA6CBF900787A49 /* RunnerThread.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +251,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EEB5BDB1E95B6D600E4BEF6 /* Build configuration list for PBXProject "EE599 Project1" */ = {
+		5EEB5BDB1E95B6D600E4BEF6 /* Build configuration list for PBXProject "PriorityQueue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EEB5BE51E95B6D700E4BEF6 /* Debug */,
@@ -241,13 +260,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EEB5BE71E95B6D700E4BEF6 /* Build configuration list for PBXNativeTarget "EE599 Project1" */ = {
+		5EEB5BE71E95B6D700E4BEF6 /* Build configuration list for PBXNativeTarget "PriorityQueue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EEB5BE81E95B6D700E4BEF6 /* Debug */,
 				5EEB5BE91E95B6D700E4BEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
