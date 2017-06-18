@@ -74,8 +74,7 @@
 				5E887D271EA6E22100787A49 /* Makefile */,
 				5ECFF1911EAD7A3700F72219 /* README */,
 			);
-			name = PriorityQueue;
-			path = "EE599 Project1";
+			path = PriorityQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
